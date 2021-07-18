@@ -9,8 +9,13 @@
 }
 
 .article-img {
+	margin-block-start : 0rem;
+		margin-block-end : 0rem;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
 	& + * {
-		margin-top: 1rem;
+		margin: 1rem 0rem 0rem 0rem;
+		
 	}
 }
 

@@ -1,6 +1,13 @@
+/* eslint-disable no-unused-expressions */
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { useState } from 'react';
 import './Header.scss';
+import Menu from '../Menu/Menu';
 const Header = (props) => {
+    const [menu, setMenu] = useState(false);
+    const toggleMenu = () => {
+        setMenu(!menu);
+    }
     return(
         <header className="header responsive-wrapper">
 
@@ -18,7 +25,12 @@ const Header = (props) => {
                 <nav class="header-nav">
                     <a href="#" class="header-link header-link--button">Login</a>
                 </nav>
-                <button className="header-menu-button">Menu</button>
+                <div classname="header-menu">
+                    <button className="header-menu-button" onClick={toggleMenu}>Menu</button>
+                    <Menu toggle={menu} togglefunction={setMenu}/>
+                </div>
+                
+                
             </div>
             
         </header>

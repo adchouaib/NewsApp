@@ -1,12 +1,22 @@
 import React from 'react';
 import './App.scss';
+import {BrowserRouter , Switch , Route, Redirect } from 'react-router-dom';
 /*------------importing the components--------------*/
-import Main from './components/Main/Main';
+import Header from './components/Header/Header';
+import Latest from './components/Latest/Latest';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Main/>
+    <div>
+      <Header/>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Latest}/>
+          <Redirect to="/"/>
+        </Switch>
+      </BrowserRouter>
+      <Footer/>
     </div>
   );
 }

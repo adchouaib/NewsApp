@@ -20,6 +20,7 @@ const Latest = (props) => {
             <div className="magazine-layout">
                 {Column}
             </div>
+            
         </main>
     );
 }

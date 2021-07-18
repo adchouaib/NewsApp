@@ -59,7 +59,10 @@
       position: relative;
       padding-right: 30px;
       font-weight: 500;
-      
+      &:hover{
+        cursor: pointer;
+        transition: 2ms ease;
+      }
       &:after, &:before {
         content: "";
         display: block;

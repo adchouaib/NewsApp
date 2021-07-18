@@ -1,0 +1,57 @@
+@import '../../font&colors.scss';
+
+.Menu{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background-color: $FontColor ;
+    color : $Background;
+    padding: .5em;
+    height: 110vh;
+    z-index: 1;
+    ul{
+        margin:0;
+        margin-inline-start: 1em;
+        margin-inline-end: 1em;
+        padding-inline-start: 0px;
+        text-align: center;
+        font-size: 30px;
+        a{
+            text-decoration: none;
+            color: $Background; 
+            width: 100%;
+            display: block;
+            border-top: solid 1px;
+            border-bottom: solid 1px;
+            &:hover{
+                cursor: pointer;
+                background-color:$Background;
+                color:$FontColor;
+            }
+            
+        }
+        .active{
+            background-color:$Background;
+            color:$FontColor;
+        }
+        .quit{
+            border: none;
+            text-align: start;
+            margin-bottom: 1em;
+            text-decoration: none;
+            color: $Background; 
+            display: block;
+            width: 100%;
+            padding: 1em 0em;
+            &:hover{
+                background-color:$FontColor ;
+                color: $Background;
+            }
+        }
+    }
+    &--element{
+        list-style: none;
+        margin-bottom: .5em;
+    }
+}

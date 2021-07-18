@@ -8,7 +8,6 @@ const Article = (props) => {
     const Articles = props.articles.map((article)=>{
         var words = article.article_title.split(" ");
         var keywords = article.keyword ? article.keyword : [] ;
-        console.log(keywords);
         return(
             <article className="article">
                 {
