@@ -14,8 +14,11 @@ export const Data = [
                 }
             },
             {
-                "article_title":"The Founder's Guide to Actually Understanding Users Nowadays",
-                "paragraph" : "By Johnathan O'Connell, Andrew Van Dam, Aaron Gregg and Alyssa Fowers", 
+                "article_img":"https://img.lemde.fr/2021/07/16/203/0/2700/1350/1024/512/75/0/3146189_728479333-rea-273495-004-cover.jpg",
+                "article_title":"« Projet Pegasus » ",
+                "keyword" : ["Projet" , "Pegasus"],
+                "outline_color" : "yellow",
+                "paragraph" : "révélations sur un système mondial d’espionnage de téléphones", 
                 "type":"medium"       
             }
         ] ,
@@ -24,16 +27,16 @@ export const Data = [
     {
         "column":[
             {
-                "article_img":"https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-                "article_title":"How 7 Lines of Code Turned Into a $36 Billion Empire",
-                "paragraph" : "Yeah, it's safe to say these guys have a great sense of humor, which isn't really suprising for us considering their seemingly absurd solution to online payments. Instead of chasing 1000-hour programming contracts to build clunky payments solutions for each individual client, the Collison...",
+                "article_img":"https://www.francetvinfo.fr/pictures/V2SSorMiyMsygZrjR1iej0SInsw/0x0:1280x720/944x531/filters:format(webp)/2021/07/18/phptUUsn0.jpg",
+                "article_title":"Le projet Pegasus : un logiciel espion utilisé par des États pour cibler des politiques, des journalistes, des avocats... y compris des Français",
+                "paragraph" : "De nombreux pays utilisent un logiciel espion pour cibler leurs propres concitoyens, ou des représentants d'États censément amis. Plus de 1 000 Français sont concernés. Révélations d’un consortium de journalistes créé par Forbidden Stories, dont fait partie la cellule investigation de Radio France.",
                 "keyword":["Lines","of","Code"],
                 "outline_color" : "blue",
                 "type":"medium",
                 "author":{
-                    "article_author":"James Robert",
-                    "article_desc":"Editor",
-                    "author_img":"https://assets.codepen.io/285131/author-2.png"
+                    "article_author":"Jacques Monin",
+                    "article_desc":"Radio France",
+                    "author_img":"https://cdn.radiofrance.fr/s3/cruiser-production/2016/09/4e3cda7e-1468-4bea-b42e-71896ea20c4d/400x400_monin_jacques.webp"
                 }
             }
         ] 
